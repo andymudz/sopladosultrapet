@@ -39,6 +39,7 @@
 
 <div class="container-all">
     <div class="cover">
+      
         <!-- inicio wave-->
 
         <div class="bg-color"></div>

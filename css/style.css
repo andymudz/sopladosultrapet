@@ -119,6 +119,7 @@ nav ul li {
 
 .container-cover {
   max-width: 1200px;
+  height: 300px;
   margin: auto;
   padding: 20px;
   display: flex;
