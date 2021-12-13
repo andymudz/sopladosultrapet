@@ -22,13 +22,13 @@
       <div class="container-header">
 
         <div class="logo">
-          <img src="http://localhost/sopladosultra/img/logo.png" alt="">
+          <img src="http://localhost/sopladosultrapet/img/logo.png" alt="">
         </div>
 
         <div class="container-nav">
           <nav>
             <ul>
-              <li><a href="http://localhost/sopladosultra/" class="select">Menú</a></li>
+              <li><a href="http://localhost/sopladosultrapet/" class="select">Menú</a></li>
               <li><a href="" class="item i1">Productos <span></span> </a></li>
               <li><a href="" class="item i2">Quiénes somos <span></span></a></li>
               <li><a href="" class="item i3">Contáctenos <span></span></a></li>
@@ -90,7 +90,7 @@
           </div>
 
           <div class="container-vector">
-            <a href=""><img src="http://localhost/sopladosultra/img/undraw_winners_re_wr1l.svg" alt=""></a>
+            <a href=""><img src="http://localhost/sopladosultrapet/img/undraw_winners_re_wr1l.svg" alt=""></a>
           </div>
         </div>
       </div>
