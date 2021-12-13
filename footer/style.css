@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @import url(https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap);
+}
+
+:root {
+  --colorPrimary: #002973;
+  --colorSecundary: #155db1;
+}
+
+footer {
+  background: var(--colorPrimary);
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.info {
+  width: 50%;
+  height: 80px;
+  min-width: 300px;
+}
+
+.redes {
+  width: 50%;
+  height: 80px;
+  min-width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-facebook,
+.fa-instagram {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  transition: 0.3s;
+}
