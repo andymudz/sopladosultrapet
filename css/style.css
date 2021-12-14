@@ -211,24 +211,10 @@ nav ul li {
   top: 0;
 }
 
-.transition {
-  width: 100%;
+.w1 {
   position: absolute;
   top: 250px;
 }
-.w1 {
-  animation: w1 7s linear infinite;
-}
-
-@keyframes w1 {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-
 /*fin wave*/
 
 /*cards*/
