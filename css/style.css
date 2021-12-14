@@ -23,6 +23,7 @@ header {
   right: 0;
   z-index: 100;
   background: #fff;
+  box-shadow: 1px 1px 30px -5px #373737;
 }
 
 .container-header {
@@ -79,6 +80,7 @@ nav ul li {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .item:hover span {
@@ -237,6 +239,7 @@ nav ul li {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   margin: 20px;
+  background: #cecece;
   text-align: center;
   transition: all 0.25s;
 }
@@ -252,19 +255,29 @@ nav ul li {
 }
 
 .container-cards .card h4 {
+  position: relative;
+  top: 20px;
   font-weight: 600;
+  color: darkgoldenrod;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container-cards .card p {
+  position: relative;
+  top: 25px;
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container-cards .card a {
+  position: relative;
+  top: 25px;
   font-weight: 500;
   text-decoration: none;
   color: #3498db;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*fin cards*/
