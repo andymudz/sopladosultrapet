@@ -11,6 +11,10 @@
   --colorSecundary: #155db1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* cabecera*/
 
 header {
@@ -220,13 +224,45 @@ nav ul li {
 /*fin wave*/
 
 /*cards*/
+
+.quienes-somos-titulo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 230px;
+}
+
+.quienes-somos-titulo h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: darkgoldenrod;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  animation: move-quienes-somos 5s ease-in-out infinite;
+}
+
+@keyframes move-quienes-somos {
+  0% {
+    transform: translateY(5px);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(5px);
+  }
+}
+
 .container-cards {
   position: relative;
-  top: 150px;
+  top: 300px;
   width: 100%;
   max-width: 1200px;
   height: 430px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
