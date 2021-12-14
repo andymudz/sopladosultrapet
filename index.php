@@ -6,6 +6,7 @@ include 'templates/header.php'
 <!-- cards seccion-->
 
 <div class="container-cards" id="quienes-somos">
+
        
        <div class="card">
            <img src="img/img1.jpg">

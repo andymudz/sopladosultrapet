@@ -40,6 +40,10 @@
     </header>
 
     <div class="container-all">
+      <div class="container-redes">
+          <a href="" class="it1"><i class="fab fa-facebook-square"><span>FACEBOOK</span></i></a>
+          <a href="" class="it2"><i class="fab fa-instagram"></i></a>
+      </div>
       <div class="cover">
         <!-- inicio wave-->
 
@@ -49,6 +53,7 @@
 
 
         <!-- final  wave-->
+        
         <div class="container-cover">
           <div class="container-info">
             <h1>Soplados</h1>

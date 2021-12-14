@@ -281,3 +281,37 @@ nav ul li {
 }
 
 /*fin cards*/
+
+/*barra redes*/
+.container-redes {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  background: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.it1 {
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+  background: #3b5998;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+.it1 span {
+  position: absolute;
+  top: 8px;
+  right: -50px;
+  width: 100%;
+  height: 80%;
+  background: #3b5998;
+}
+/*fin barra redes*/
