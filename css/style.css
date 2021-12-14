@@ -11,6 +11,10 @@
   --colorSecundary: #155db1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* cabecera*/
 
 header {
@@ -191,14 +195,14 @@ nav ul li {
 
 @keyframes move-vector {
   0% {
-    transform: translateY(10px);
+    transform: rotate(30deg);
   }
   25% {
-    transform: translateY(-10px);
+    transform: rotate(-30deg);
   }
 
   100% {
-    transform: translateY(10px);
+    transform: rotate(30deg);
   }
 }
 /*fin cover*/
@@ -220,13 +224,45 @@ nav ul li {
 /*fin wave*/
 
 /*cards*/
+
+.quienes-somos-titulo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 230px;
+}
+
+.quienes-somos-titulo h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: darkgoldenrod;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  animation: move-quienes-somos 5s ease-in-out infinite;
+}
+
+@keyframes move-quienes-somos {
+  0% {
+    transform: translateY(5px);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(5px);
+  }
+}
+
 .container-cards {
   position: relative;
-  top: 150px;
+  top: 300px;
   width: 100%;
   max-width: 1200px;
   height: 430px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
@@ -242,6 +278,7 @@ nav ul li {
   background: #e9e9e9;
   text-align: center;
   transition: all 0.25s;
+  cursor: pointer;
 }
 
 .container-cards .card:hover {
@@ -287,31 +324,78 @@ nav ul li {
   position: fixed;
   right: 0;
   top: 50%;
-  background: darkgoldenrod;
   display: flex;
   flex-direction: column;
   z-index: 1;
 }
 
 .it1 {
+  display: flex;
   overflow: hidden;
+  right: -200px;
+  width: 250px;
   position: relative;
   padding: 10px;
   background: #3b5998;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  box-shadow: 1px 1px 30px -5px #373737;
+  transition: all linear 0.5s;
 }
 
-.fab {
-  margin-right: 5px;
+.it1:hover {
+  right: 0;
+
+  box-shadow: 1px 1px 30px -5px #373737a1;
 }
 
-.it1 span {
-  position: absolute;
-  top: 8px;
-  right: -50px;
-  width: 100%;
-  height: 80%;
-  background: #3b5998;
+.it2 {
+  display: flex;
+  overflow: hidden;
+  right: -200px;
+  width: 250px;
+  position: relative;
+  padding: 10px;
+  background: #833ab4;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 1px 1px 30px -5px #373737;
+  transition: all linear 0.5s;
 }
+
+.it2:hover {
+  right: 0;
+  box-shadow: 1px 1px 30px -5px #373737a1;
+}
+
+.fa-facebook-square {
+  color: #000;
+  font-size: 28px;
+}
+
+.fa-instagram {
+  color: #000;
+  font-size: 28px;
+}
+
+.face1 {
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+  font-weight: 900;
+}
+
+.face2 {
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 900;
+}
+
 /*fin barra redes*/
