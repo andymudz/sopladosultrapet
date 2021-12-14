@@ -188,6 +188,7 @@ nav ul li {
 .container-vector img {
   position: absolute;
   bottom: 10px;
+  top: -70px;
   right: 0;
   width: 400px;
   animation: move-vector 6s ease-in-out infinite;
