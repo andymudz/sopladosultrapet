@@ -30,7 +30,7 @@
             <ul>
               <li><a href="http://localhost/sopladosultrapet/" class="select">Menú</a></li>
               <li><a href="" class="item i1">Productos <span></span> </a></li>
-              <li><a href="" class="item i2">Quiénes somos <span></span></a></li>
+              <li><a href="#quienes-somos" class="item i2">Quiénes somos <span></span></a></li>
               <li><a href="" class="item i3">Contáctenos <span></span></a></li>
             </ul>
           </nav>
