@@ -4,11 +4,11 @@
 
  <!-- cards seccion-->
 
- <div class="quienes-somos-titulo">
+ <div class="quienes-somos-titulo" id="quienes-somos">
      <h1>¿Quienes somos?</h1>
  </div>
 
- <div class="container-cards" id="quienes-somos">
+ <div class="container-cards" >
      <div class="card">
          <img src="img/img1.jpg">
          <h4>Naturaleza</h4>
