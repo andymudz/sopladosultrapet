@@ -9,3 +9,11 @@ abrir.addEventListener("click", function (e) {
     modalContainer.style.visibility = "visible";
     modal.classList.toggle("modal-close");
 });
+
+cerrar.addEventListener("click", function () {
+    modal.classList.toggle("modal-close");
+    setTimeout(function () {
+        modalContainer.style.opacity = "0";
+        modalContainer.style.visibility = "hidden";
+    }, 900)
+});

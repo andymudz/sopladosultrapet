@@ -345,6 +345,7 @@ nav ul li {
   position: relative;
   animation: modal 1s linear;
   animation-iteration-count: 1;
+  border-radius: 10px;
 }
 
 @keyframes modal {
@@ -371,6 +372,14 @@ nav ul li {
   position: absolute;
   top: 5px;
   right: 5px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: #c44a4a;
+  color: #fff;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 /*fin modal*/
