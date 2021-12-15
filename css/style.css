@@ -320,6 +320,61 @@ nav ul li {
 
 /*fin cards*/
 
+/*modal*/
+
+.container-modal {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  width: 40%;
+  height: 50%;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  animation: modal 1s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes modal {
+  0% {
+    transform: translateY(-200%);
+  }
+}
+
+.modal-close {
+  animation: close 1s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes close {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/*fin modal*/
+
 /*barra redes*/
 .container-redes {
   position: fixed;

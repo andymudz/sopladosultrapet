@@ -1,5 +1,5 @@
  <?php
-    include 'templates/header.php'
+    include 'templates/header.php';
     ?>
 
  <!-- cards seccion-->
@@ -8,12 +8,12 @@
      <h1>¿Quienes somos?</h1>
  </div>
 
- <div class="container-cards" >
+ <div class="container-cards">
      <div class="card">
          <img src="img/img1.jpg">
          <h4>Naturaleza</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-         <a href="#">Leer más</a>
+         <a href="#" class="abrir">Leer más</a>
      </div>
 
      <div class="card">
@@ -32,13 +32,17 @@
 
  </div>
 
-
+ <div class="container-modal">
+     <div class="modal modal-close">
+         <p class="close">X</p>
+         <div class="modal-textos">
+             <h1>Mision</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempora ducimus placeat in laboriosam quibusdam, nobis nam, assumenda incidunt necessitatibus blanditiis? Officiis dolorem odio nemo consectetur excepturi doloribus quasi nobis.
+                 Nesciunt velit, vero facilis dignissimos perferendis optio dolores? Perspiciatis dolor qui delectus blanditiis quidem, provident quis modi accusamus! Ullam fugit ex earum nihil alias quos facere voluptatem facilis amet. Fuga.</p>
+         </div>
+     </div>
  </div>
 
-
-
  <?php
-
-    include 'templates/footer.php'
-
+    include 'templates/footer.php';
     ?>
