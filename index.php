@@ -4,16 +4,18 @@
 
  <!-- cards seccion-->
 
+
+<div class="container-quienessomos">
  <div class="quienes-somos-titulo" id="quienes-somos">
      <h1>¿Quienes somos?</h1>
  </div>
 
- <div class="container-cards">
+ <div class="container-cards" >
      <div class="card">
          <img src="img/img1.jpg">
          <h4>Naturaleza</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-         <a href="#" class="abrir">Leer más</a>
+         <a href="#">Leer más</a>
      </div>
 
      <div class="card">
@@ -29,6 +31,8 @@
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
          <a href="#">Leer más</a>
      </div>
+
+ </div>
 
  </div>
 

@@ -226,12 +226,20 @@ nav ul li {
 
 /*cards*/
 
+.container-quienessomos {
+  margin-top: 80px;
+  width: 100%;
+  height: 700px;
+  background: rgba(209, 209, 209, 0.842);
+  box-shadow: 1px 1px 10px 5px rgb(116, 116, 116);
+}
+
 .quienes-somos-titulo {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  top: 230px;
+  top: 50px;
 }
 
 .quienes-somos-titulo h1 {
@@ -259,7 +267,7 @@ nav ul li {
 
 .container-cards {
   position: relative;
-  top: 300px;
+  top: 100px;
   width: 100%;
   max-width: 1200px;
   height: 430px;
