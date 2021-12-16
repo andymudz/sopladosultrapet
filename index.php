@@ -2,12 +2,13 @@
     include 'templates/header.php';
     ?>
 
+
  <!-- cards seccion-->
 
 
 <div class="container-quienessomos">
  <div class="quienes-somos-titulo" id="quienes-somos">
-     <h1>¿Quienes somos?</h1>
+     <h1 class="title">¿Quienes somos?</h1>
  </div>
 
  <div class="container-cards" >
@@ -72,7 +73,75 @@
      </div>
  </div>
 
+
+ <!-- seccion de productos -->
  
+ <section class="productos">
+ <div class="quienes-somos-titulo2" id="productos">
+     <h1 class="title">Productos</h1>
+ </div>
+
+ <div class="container-productoscard">
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Crema verde</p>
+       
+      </a>
+    </div>
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Jabón de baño</p>
+       
+      </a>
+    </div>
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Aceite rejuvenecedor</p>
+        
+      </a>
+    </div>
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Aceite rejuvenecedor</p>
+        
+      </a>
+    </div>
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Aceite rejuvenecedor</p>
+        
+      </a>
+    </div>
+    <div class="card estilo-a">
+      <a href="#">
+        <div class="img-container">
+          <img src="https://images.pexels.com/photos/4465830/pexels-photo-4465830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto 1">
+        </div>
+        <p>Aceite rejuvenecedor</p>
+        
+      </a>
+    </div>
+
+    </div>
+</section>
+
+ <!-- fin seccion de productos -->
+
  <?php
     include 'templates/footer.php';
     ?>
