@@ -74,6 +74,12 @@
  </div>
 
 
+ <!-- img argollas -->
+
+ <div class="argollas">
+   <img class="img-argollas" src="http://localhost/sopladosultrapet/img/arggollas.png" alt="">
+ </div>
+
  <!-- seccion de productos -->
  
  <section class="productos">
