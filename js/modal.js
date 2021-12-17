@@ -68,3 +68,31 @@ cerrar3.addEventListener("click", function () {
     modalContainer3.style.visibility = "hidden";
   }, 900);
 });
+
+window.addEventListener("click", function (e) {
+  if (e.target == modalContainer) {
+
+    modal.classList.toggle("modal-close");
+    setTimeout(function () {
+      modalContainer.style.opacity = "0";
+      modalContainer.style.visibility = "hidden";
+    }, 900);
+
+  } else if (e.target == modalContainer2) {
+
+    modal2.classList.toggle("modal-close2");
+    setTimeout(function () {
+      modalContainer2.style.opacity = "0";
+      modalContainer2.style.visibility = "hidden";
+    }, 900);
+
+  } else if (e.target == modalContainer3) {
+
+    modal3.classList.toggle("modal-close3");
+    setTimeout(function () {
+      modalContainer3.style.opacity = "0";
+      modalContainer3.style.visibility = "hidden";
+    }, 900);
+
+  }
+})
